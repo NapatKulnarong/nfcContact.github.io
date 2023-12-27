@@ -1,0 +1,101 @@
+body {
+	background-image: url("./resources/images/websiteBackground.png");
+	background-size: cover;
+	background-position: center;
+	font-family: "M PLUS Rounded 1c";
+	color: rgba(34, 31, 32, 1);
+}
+
+i {
+	margin-right: 15px;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 100%;
+	box-shadow: 0px 0px 15px gray;
+}
+
+a {
+	color: rgb(37, 97, 153);
+}
+
+.button {
+	padding: 0, 3px;
+	border-radius: 10px;
+	font-size: 12px;
+}
+
+.transparent-box {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin-top: 20px;
+}
+
+.contact-heading {
+	font-size: 72px;
+	font-weight: bold;
+	margin-top: 3px;
+}
+.contact-info {
+	font-size: 20px;
+	display: flex;
+	align-items: baseline;
+}
+
+.contact-phone {
+	font-size: 20px;
+	display: flex;
+	align-items: baseline;
+}
+
+.contact-email {
+	font-size: 20px;
+	display: flex;
+	align-items: baseline;
+
+}
+
+.contact-IG {
+	font-size: 20px;
+	display: flex;
+	align-items: baseline;
+	margin-top: 10px;
+	text-indent: 2px;
+}
+
+.contact-FB {
+	font-size: 20px;
+	display: flex;
+	align-items: baseline;
+	margin-top: 20px;
+}
+
+.contact-Line {
+	font-size: 20px;
+	display: flex;
+	align-items: baseline;
+	margin-top: 20px;
+}
+
+hr .round {
+	border-top: 8px solid #bbb;
+	border-radius: 5px;
+}
+
+
+.message-topic {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.message {
+	font-size: 17.5px;
+}
+
+
+footer {
+	margin-bottom: 20px;
+}
